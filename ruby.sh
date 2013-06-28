@@ -3,7 +3,7 @@
 INSTALL_DIR="/opt/local"
 VERSION=$2
 APP_NAME="ruby"
-URL="http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-$VERSION.tar.bz2"
+URL="http://ftp.ruby-lang.org/pub/ruby/2.0/ruby-$VERSION.tar.bz2"
 PREFIX="$INSTALL_DIR/$APP_NAME/$VERSION"
 CURRENT="$INSTALL_DIR/$APP_NAME/current"
 SRC="$INSTALL_DIR/src"
@@ -31,7 +31,7 @@ case "$COMMAND" in
     tar xvf $TGZ
     cd "ruby-$VERSION"
 
-    ./configure --prefix=$PREFIX
+    ./configure --prefix=$PREFIX --disable-install-rdoc
 
     make
     make install

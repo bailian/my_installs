@@ -8,7 +8,7 @@ For ruby:
 
 Example:
 
-      sudo ./ruby.sh activate 1.9.3-p374
+      sudo ./ruby.sh activate 2.0.0-p195
 
 ---
 
@@ -19,4 +19,4 @@ For Nginx:
 
 Example:
 
-      sudo ./nginx.sh activate 1.3.13
+      sudo ./nginx.sh activate 1.4.1
