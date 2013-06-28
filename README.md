@@ -8,7 +8,7 @@ For ruby:
 
 Example:
 
-      sudo ./ruby.sh activate 2.0.0-p195
+      sudo ./ruby.sh activate 2.0.0-p247
 
 ---
 
